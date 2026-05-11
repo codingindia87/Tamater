@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Tamater" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimary">#F04B4B</item>
+        <item name="fontFamily">@font/tamater_font</item>
+    </style>
+
+    <style name="Theme.Tamater" parent="Base.Theme.Tamater" />
+</resources>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Tamater</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="map_api_key">Past Your map api key</string>
+
+    <string name="main_title">Get Your <b>Best Food</b>\nAround You</string>
+    <string name="deliver_to">Deliver to</string>
+    <string name="enter_delivery_address">Enter delivery address</string>
+    <string name="name">Name:</string>
+    <string name="address">Address:</string>
+    <string name="city">City:</string>
+    <string name="pin_code">Pin Code:</string>
+    <string name="or">OR</string>
+    <string name="use_my_profile_details">Use My Profile details</string>
+    <string name="proceed">Proceed</string>
+    <string name="your_order">Your Order</string>
+    <string name="description">Description</string>
+    <string name="suggested_foods">Suggested Foods</string>
+    <string name="add_to_cart">Add To Cart</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="jon_gmail_com">jon@gmail.com</string>
+    <string name="password">Password</string>
+    <string name="hint_password">**********</string>
+    <string name="login_cap">LOGIN</string>
+    <string name="don_t_have_account">Don\'t have account</string>
+</resources>

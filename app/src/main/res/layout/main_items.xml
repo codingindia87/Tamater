@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:id="@+id/parent_layout"
+    android:foreground="@drawable/corner_round_ripple_effect"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/search_bg"
+        app:cardCornerRadius="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="24dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Food name"
+                android:lines="1"
+                android:textColor="@color/black"
+                android:id="@+id/tv_name"
+                android:ellipsize="end"
+                android:textSize="13sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="description"
+                android:textSize="10sp"
+                android:lines="1"
+                android:ellipsize="end"
+                android:id="@+id/description"
+                android:textColor="@color/black"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                android:paddingEnd="10dp"
+                android:gravity="center_vertical">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="32"
+                    android:textColor="@color/black"
+                    android:lines="1"
+                    android:id="@+id/tv_price"
+                    android:ellipsize="end"
+                    android:textStyle="bold"
+                    android:textSize="12sp"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/add_type"
+                    android:src="@drawable/square_dot_green_24px"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="99dp"
+        android:layout_height="99dp"
+        app:civ_border_color="#ddd"
+        app:civ_border_width="1dp"
+        android:id="@+id/food_image"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/food_image"/>
+
+</RelativeLayout>
